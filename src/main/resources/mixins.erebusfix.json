@@ -1,0 +1,15 @@
+{
+  "package": "noobanidus.mods.erebusfix.mixins",
+  "required": true,
+  "refmap": "mixins.erebusfix.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.6.0",
+  "mixins": [
+    "MixinContainerTFUncrafting"
+  ],
+  "client": [],
+  "injectors": {
+    "maxShiftBy": 10
+  }
+}

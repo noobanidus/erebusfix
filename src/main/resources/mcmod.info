@@ -1,0 +1,21 @@
+[
+  {
+    "modid": "erebusfix",
+    "name": "ErebusFix",
+    "description": "Prevent crashes involving Preserved blocks.",
+    "version": "${version}",
+    "credits": "Noobanidus",
+    "logoFile": "assets/erebusfix/textures/logo.png",
+    "mcversion": "${mc_version}",
+    "url": "http://github.com/noobanidus/erebusfix",
+    "updateUrl": "",
+    "authorList": [
+      "Noobanidus"
+    ],
+    "parent": "",
+    "screenshots": [],
+    "dependencies": [
+      "forge"
+    ]
+  }
+]
