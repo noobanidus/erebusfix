@@ -17,7 +17,7 @@ apply plugin: 'org.spongepowered.mixin'
 
 version = "${minecraft_version}-${mod_version}"
 group = "noobanidus.mods.erebusfix"
-archivesBaseName = "uncrafting-blacklist"
+archivesBaseName = "erebusfix"
 
 sourceCompatibility = targetCompatibility = "1.8"
 
@@ -50,6 +50,14 @@ configurations {
 
 repositories {
     maven {
+        name = "HWYLA"
+        url = "http://tehnut.info/maven"
+    }
+    maven { // The One Probe
+        name 'tterrag maven'
+        url "https://maven.tterrag.com/"
+    }
+    maven {
         name = "sponge"
         url = "http://repo.spongepowered.org/maven/"
     }
@@ -60,6 +68,8 @@ dependencies {
     compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.1'
     compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.1'
 
+    //compile "mcp.mobius.waila:Hwyla:${hwyla_version}"
+    compile "mcjty.theoneprobe:TheOneProbe-${top_version}"
 
     shade("org.spongepowered:mixin:0.8") {
         transitive = false

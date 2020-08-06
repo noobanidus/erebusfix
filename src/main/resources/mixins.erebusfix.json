@@ -6,7 +6,8 @@
   "target": "@env(DEFAULT)",
   "minVersion": "0.6.0",
   "mixins": [
-    "MixinContainerTFUncrafting"
+    "MixinBlockPreservedBlock",
+    "MixinTileEntityPreservedBlock"
   ],
   "client": [],
   "injectors": {

@@ -20,7 +20,7 @@ import java.net.MalformedURLException;
 import java.util.List;
 
 /**
- * This code original licensed under the terms of the MIT License, which is compatible with the GPL
+ * This code original licensed under the terms of the MIT License
  * Authorship of the file is visible here: https://github.com/DimensionalDevelopment/JustEnoughIDs/commits/master/src/main/java/org/dimdev/jeid/mixin/init/MixinLoader.java
  **/
 @Mixin(Loader.class)

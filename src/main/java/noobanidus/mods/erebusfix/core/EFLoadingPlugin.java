@@ -15,7 +15,7 @@ import java.util.Map;
 
 @MCVersion(ForgeVersion.mcVersion)
 @SortingIndex(-8000)
-@Name("Uncrafting Blacklist Mixin Loading Plugin")
+@Name("ErebusFix Mixin Loading Plugin")
 public class EFLoadingPlugin implements IFMLLoadingPlugin {
   public static Logger log = LogManager.getLogger("ErebusFix Core");
 
